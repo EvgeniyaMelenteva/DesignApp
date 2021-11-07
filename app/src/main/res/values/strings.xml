@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DesignApp</string>
+    <string name="EditTextName">Введите имя</string>
+    <string name="EditTextAge">Ваш возраст</string>
+    <string name="choiceOS">Какая ОС у Вашего телефона</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="other">Other</string>
+    <string name="ok">OK</string>
+</resources>
