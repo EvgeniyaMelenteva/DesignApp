@@ -8,29 +8,30 @@
 
 
     <EditText
-        android:id="@+id/name"
+        style="@style/EditText"
+        android:id="@+id/EditTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:hint="@string/EditTextName"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.022" />
 
     <EditText
+        style="@style/EditText"
+        android:id="@+id/EditTextAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:hint="@string/EditTextAge"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/name"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
 
     <TextView
         style="@style/TextViewStyle"
